@@ -1,0 +1,12 @@
+.logo_text{
+  position: absolute;
+  margin: 10px 5px;
+  color: goldenrod;
+  font-family: "Roboto Serif";
+}
+@media (max-width: 768px) {
+  .logo_text {
+    font-size: 10px;
+    margin: 2px 5px;
+  }
+}
