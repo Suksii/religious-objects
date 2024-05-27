@@ -6,22 +6,6 @@ import centralnaRegija from "../../assets/img/centralna-regija.jpg";
 import sjevernaRegija from "../../assets/img/sjeverna-regija.jpg";
 
 const HomePage = () => {
-    const [siteViews, setSiteViews] = useState(0);
-
-    useEffect(() => {
-        if (localStorage) {
-            const savedSiteViews = parseInt(localStorage.getItem("siteViews")) || 0;
-            setSiteViews(savedSiteViews);
-        }
-    }, []);
-
-    useEffect(() => {
-        localStorage.setItem("siteViews", siteViews.toString()); // Čuvanje broja pregleda u localStorage
-    }, [siteViews]);
-
-    const increaseSiteViews = () => {
-        setSiteViews(prevViews => prevViews + 1);
-    };
 
     const data = [
         {
@@ -49,7 +33,7 @@ const HomePage = () => {
             <h1 className="title">Vjerski objekti u Crnoj Gori</h1>
             <div className="card-list">
                 {data.map((region, index) => (
-                    <Link to={region.link} key={index} className="card" onClick={increaseSiteViews}>
+                    <Link to={region.link} key={index} className="card">
                         <h2>{region.region}</h2>
                         <img src={region.image} alt={region.region} />
                     </Link>
