@@ -78,7 +78,7 @@ export const south_data = [
             },
             {
                 id: 2,
-                source: '-  https://hr.m.wikipedia.org/wiki/Crkva_sv._Marka_u_Perastu'
+                source: 'https://hr.m.wikipedia.org/wiki/Crkva_sv._Marka_u_Perastu'
             },
             {
                 id: 3,
