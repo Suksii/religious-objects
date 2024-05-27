@@ -27,6 +27,6 @@ This project is a web application built with React.js, designed to showcase vari
 ## Installation
 
    1. Clone the repository: `git clone --single-branch --branch master "https://github.com/Suksii/religious-objects.git"`
-   2. Find the location: `cd vjerski-objekti`
+   2. Find the location: `cd religious-objects`
    3. Install dependencies: `npm install`
    4. Run the application: `npm run dev`
