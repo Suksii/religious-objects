@@ -1,10 +1,10 @@
 import {Link, useParams} from "react-router-dom";
-import './CentralObjects.scss';
+import './ReligiousObject.scss';
 import {FaArrowLeft} from "react-icons/fa6";
 import ImageSlider from "../../components/imageSlider/ImageSlider.jsx";
 import {useState} from "react";
 
-const CentralObjects = ({data}) => {
+const ReligiousObject = ({data, regionLink}) => {
 
     const objectId = useParams().object;
     const ReligiousObject = data.find((object) => object.name.toLowerCase().replaceAll(" ","-") === objectId)
@@ -19,7 +19,7 @@ const CentralObjects = ({data}) => {
 
     return (
         <div style={{padding: '20px 0'}}>
-            <Link to="/srednja-regija" className="go-back" onClick={scrollToTop}>
+            <Link to={`/${regionLink}`} className="go-back" onClick={scrollToTop}>
                 <div className="button">
                     <FaArrowLeft />
                 </div>
@@ -57,11 +57,10 @@ const CentralObjects = ({data}) => {
                             })
                         }
                     </div>
-
                 </div>
             </div>
         </div>
     )
 }
 
-export default CentralObjects;
+export default ReligiousObject;

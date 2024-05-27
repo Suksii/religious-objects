@@ -1,7 +1,7 @@
 import { FaArrowLeft } from "react-icons/fa6";
-import './SouthPage.scss';
+import './RegionPage.scss';
 import {Link} from "react-router-dom";
-const SouthPage = ({data}) => {
+const RegionPage = ({data, region, regionLink}) => {
     const scrollToTop = () => {
         window.scrollTo({
             top: 0,
@@ -11,7 +11,7 @@ const SouthPage = ({data}) => {
 
     return (
         <>
-            <h1 className="title">Vjerski objekti južne regije</h1>
+            <h1 className="title">Vjerski objekti {region} regije</h1>
             <Link to="/" className="go-back" onClick={scrollToTop}>
                 <div className="button">
                     <FaArrowLeft />
@@ -26,7 +26,7 @@ const SouthPage = ({data}) => {
                                 <img src={object.mainImage} alt={object.name} />
                                 <h2>{object.name}</h2>
                                 <p>{object.descriptions[0].description}</p>
-                                <Link to={`/juzna-regija/${object.name.toLowerCase().replaceAll(" ","-")}`}
+                                <Link to={`/${regionLink}/${object.name.toLowerCase().replaceAll(" ","-")}`}
                                       className="button"
                                       onClick={scrollToTop}>
                                     Detaljnije
@@ -41,4 +41,4 @@ const SouthPage = ({data}) => {
     );
 }
 
-export default SouthPage;
+export default RegionPage;
