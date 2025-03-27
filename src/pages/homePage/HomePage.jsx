@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import './HomePage.scss';
-import juznaRegija from "../../assets/img/juzna-regija.jpg";
-import centralnaRegija from "../../assets/img/centralna-regija.jpg";
-import sjevernaRegija from "../../assets/img/sjeverna-regija.jpg";
+import juznaRegija from "../../assets/img/j-regija.jpg";
+import centralnaRegija from "../../assets/img/c-regija.jpg";
+import sjevernaRegija from "../../assets/img/s-regija.jpg";
 
 const HomePage = () => {
 

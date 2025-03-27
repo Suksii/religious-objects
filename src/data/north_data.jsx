@@ -30,7 +30,7 @@ export const north_data = [
         images: [
             {
                 id: 1,
-                image: DzamijaUBioci1
+                image: DzamijaUBioci3
             },
             {
                 id: 2,
@@ -38,7 +38,7 @@ export const north_data = [
             },
             {
                 id: 3,
-                image: DzamijaUBioci3
+                image: DzamijaUBioci1
             }
         ],
         descriptions: [
@@ -130,11 +130,11 @@ export const north_data = [
         images: [
             {
                 id: 1,
-                image: DzamijaUNedakusima2
+                image: DzamijaUNedakusima3
             },
             {
                 id: 2,
-                image: DzamijaUNedakusima3
+                image: DzamijaUNedakusima2
             },
             {
                 id: 3,
@@ -186,7 +186,7 @@ export const north_data = [
         images: [
             {
                 id: 1,
-                image: SaborniHramHristovogRozdestva1
+                image: SaborniHramHristovogRozdestva3
             },
             {
                 id: 2,
@@ -283,11 +283,11 @@ export const north_data = [
         images: [
             {
                 id: 1,
-                image: CrkvaSvetePetkeParaskeve1
+                image: CrkvaSvetePetkeParaskeve2
             },
             {
                 id: 2,
-                image: CrkvaSvetePetkeParaskeve2
+                image: CrkvaSvetePetkeParaskeve1
             },
             {
                 id: 3,

@@ -41,15 +41,15 @@ export const central_data = [
         images: [
             {
                 id: 1,
-                image: SkenderCauseva_StarodoganjskaDzamija2
-            },
-            {
-                id: 2,
                 image: SkenderCauseva_StarodoganjskaDzamija3
             },
             {
-                id: 3,
+                id: 2,
                 image: SkenderCauseva_StarodoganjskaDzamija1
+            },
+            {
+                id: 3,
+                image: SkenderCauseva_StarodoganjskaDzamija2
             }
         ],
         descriptions: [
@@ -89,11 +89,11 @@ export const central_data = [
         images: [
             {
                 id: 1,
-                image: CrkvaPresvSrcaIsusovog1
+                image: CrkvaPresvSrcaIsusovog2
             },
             {
                 id: 2,
-                image: CrkvaPresvSrcaIsusovog2
+                image: CrkvaPresvSrcaIsusovog1
             },
             {
                 id: 3,
@@ -137,15 +137,15 @@ export const central_data = [
         images: [
             {
                 id: 1,
-                image: DzamijaOsmanagica1
+                image: DzamijaOsmanagica3
             },
             {
                 id: 2,
-                image: DzamijaOsmanagica2
+                image: DzamijaOsmanagica1
             },
             {
                 id: 3,
-                image: DzamijaOsmanagica3
+                image: DzamijaOsmanagica2
             }
         ],
         descriptions: [
@@ -229,7 +229,7 @@ export const central_data = [
         images: [
             {
                 id: 1,
-                image: ManastirDajbabe1
+                image: ManastirDajbabe3
             },
             {
                 id: 2,
@@ -237,7 +237,7 @@ export const central_data = [
             },
             {
                 id: 3,
-                image: ManastirDajbabe3
+                image: ManastirDajbabe1
             }
         ],
         descriptions: [
@@ -277,15 +277,15 @@ export const central_data = [
         images: [
             {
                 id: 1,
+                image: CrkvaSvNovomucenikaMitropolijeCP3
+            },
+            {
+                id: 1,
                 image: CrkvaSvNovomucenikaMitropolijeCP1
             },
             {
                 id: 1,
                 image: CrkvaSvNovomucenikaMitropolijeCP2
-            },
-            {
-                id: 1,
-                image: CrkvaSvNovomucenikaMitropolijeCP3
             }
         ],
         descriptions: [
@@ -365,7 +365,7 @@ export const central_data = [
         images: [
             {
                 id: 1,
-                image: HramSvNovomucenikaStanka1
+                image: HramSvNovomucenikaStanka3
             },
             {
                 id: 2,
@@ -373,7 +373,7 @@ export const central_data = [
             },
             {
                 id: 3,
-                image: HramSvNovomucenikaStanka3
+                image: HramSvNovomucenikaStanka1
             }
         ],
         descriptions: [
@@ -473,11 +473,11 @@ export const central_data = [
         images: [
             {
                 id: 1,
-                image: DvoranskaCrkva1
+                image: DvoranskaCrkva2
             },
             {
                 id: 2,
-                image: DvoranskaCrkva2
+                image: DvoranskaCrkva1
             },
             {
                 id: 3,
