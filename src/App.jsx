@@ -13,7 +13,6 @@ import FondSection from "./components/fondSection/FondSection.jsx";
 
 function App() {
   const [imageSrc, setImageSrc] = useState(FZMsmall);
-  const [brojPregleda, setBrojPregleda] = useState(0);
 
   useEffect(() => {
     const updateImage = () => {
@@ -26,50 +25,9 @@ function App() {
     return () => window.removeEventListener("resize", updateImage);
   }, []);
 
-  useEffect(() => {
-    const inkrementirajPreglede = async () => {
-      try {
-        const response = await fetch("https://www.vjerskiobjekticg.com/update_views.php", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-        });
-
-        if (!response.ok) throw new Error("HTTP greška " + response.status);
-
-        const data = await response.json();
-        setBrojPregleda(data.brojPregleda);
-      } catch (error) {
-        console.error("Greška prilikom slanja zahteva:", error);
-      }
-    };
-
-    inkrementirajPreglede();
-  }, []);
-
   return (
     <div style={{ position: "relative" }}>
       <FondSection />
-      {/* <div
-        style={{ cursor: "pointer" }}
-        onClick={() => window.open("https://fzm.me/v/")}
-      >
-        <p className="logo_text">
-          "Vjerski objekti Crne Gore" je projekat koji se realizuje podrškom
-        </p>
-        <img src={imageSrc} alt="FZM" style={{ width: "100%" }} />
-      </div> */}
-      <a
-        style={{
-          position: "fixed",
-          left: "0px",
-          bottom: "0",
-          padding: "8px",
-          fontSize: "14px",
-          backgroundColor: "rgba(100,100,100,0.3)",
-        }}
-      >
-        Broj pregleda: <span className="brojPregleda">{brojPregleda}</span>
-      </a>
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route

@@ -571,7 +571,7 @@ export const south_data = [
   },
   {
     id: 14,
-    name: "Omedbašića džamija",
+    name: "Omerbašića džamija",
     mainImage: OmerbasicaDzamija,
     date: "25.03.2025.",
     images: [
@@ -589,7 +589,7 @@ export const south_data = [
       {
         id: 2,
         description:
-          "O njenoj izgradnji u arhivi Mešihata postoji ovaj zapis: &gt;Jednoga dana došao je Omerov prijatelj, a sluga biskupov na pijacu da kupi ribe za biskupa, pošto je biskupu bila slava. Toga dana nije našao ribe na pijaci i vratio se bez nje. Tri dana dolazio je po ribu, ali nje nije bilo. Četvrti dan nije dolazio, a ribe je bilo. Omer je prošao kroz pijacu i kupio jednu veliku ribu i poslao je na poklon biskupu. Ovom poklonu se biskup obradovao i u znak zahvalnosti Omeru je poklonio svoju polovinu maslinjaka u mjestu zvano Krdelj, a koje se graničilo sa Omerovim maslinjakom. Pošto su ovaj poklon ozakonili kod šerijatskog suda, kroz grad se sa čudjenjem primila ta vijest, kako za jednu ribu da dobije tako veliku parcelu maslina i dali mu nadimak “Baša” - glava od ribe. Omer je imao tri sina sa kojima je jednog Bajrama pošao u džamiju na Bajram namaz (u tvrdjavi), vrata od grada su bila zatvorena. Omer se naljutio i rekao sinovima: Uzmite po jedan kamen, a i sam je uzeo i rekao: gdje ću ja baciti ovaj kamen, bacite i vi. Idući prijekim putem prema njegovom imaju u Krdelju noga mu se saplela za drače, kamen mu je pao iz ruke i u isti mah i sinovi su bacilli kamenje iz ruku. On je sinovima rekao – nijesam mislio ovdje već u Krdelj, ali ovdje je bila sudbina i tu ćemo podići džamiju. Što su i učinili i po tome je džamija dobila ime “Omerbašina džamija”.",
+          "O njenoj izgradnji u arhivi Mešihata postoji ovaj zapis: “Jednoga dana došao je Omerov prijatelj, a sluga biskupov na pijacu da kupi ribe za biskupa, pošto je biskupu bila slava. Toga dana nije našao ribe na pijaci i vratio se bez nje. Tri dana dolazio je po ribu, ali nje nije bilo. Četvrti dan nije dolazio, a ribe je bilo. Omer je prošao kroz pijacu i kupio jednu veliku ribu i poslao je na poklon biskupu. Ovom poklonu se biskup obradovao i u znak zahvalnosti Omeru je poklonio svoju polovinu maslinjaka u mjestu zvano Krdelj, a koje se graničilo sa Omerovim maslinjakom. Pošto su ovaj poklon ozakonili kod šerijatskog suda, kroz grad se sa čudjenjem primila ta vijest, kako za jednu ribu da dobije tako veliku parcelu maslina i dali mu nadimak “Baša” - glava od ribe. Omer je imao tri sina sa kojima je jednog Bajrama pošao u džamiju na Bajram namaz (u tvrdjavi), vrata od grada su bila zatvorena. Omer se naljutio i rekao sinovima: Uzmite po jedan kamen, a i sam je uzeo i rekao: gdje ću ja baciti ovaj kamen, bacite i vi. Idući prijekim putem prema njegovom imaju u Krdelju noga mu se saplela za drače, kamen mu je pao iz ruke i u isti mah i sinovi su bacilli kamenje iz ruku. On je sinovima rekao – nijesam mislio ovdje već u Krdelj, ali ovdje je bila sudbina i tu ćemo podići džamiju. Što su i učinili i po tome je džamija dobila ime “Omerbašina džamija”.”",
       },
       {
         id: 3,
@@ -663,8 +663,27 @@ export const south_data = [
     descriptions: [
       {
         id: 1,
-        description:
-          "Ostrvo Sveti Đorđe je dobilo ime po zaštitniku grada Kotora i Kotorani su prvi koji su ga tako nazivali, a njegovo ime nije se nikako mijenjalo. Okruženo kamenim zidinama, i sakriveno od pogleda visokim krošnjama čempresa, ovo ostrvo kao da krije neku tajnu i ne dopušta radoznalim očima da poremete pomalo jezivi mir ovog ostrva. Jedini trag ljudi na ostrvu predstavlja benediktinski manastir iz 12. vijeka, a najveći dio ostrva zauzima groblje u kojem su sahranjeni nebrojeni stanovnici Perasta i drugih gradova Boke. Svi osvajači koji su dolazili u Boku, željeli su da posjeduju ovo ostrvo, jer se vjerovalo da će njegovi vladari, vladati i čitavim zalivom. Ostrvo je, kako mještani vjeruju, zbog zaštite sveca pošteđeno. Ovo ostrvo je poznato i pod nazivom &quot;Ostrvo mrtvih&quot; i to s punim pravom, jer na groblju počiva nekoliko stotina, ili čak hiljada ljudi - Peraštana, ali i drugih. Međutim, jedna od najlepših i najtužnijih ljubavnih priča desila se u Perastu u Crnoj Gori. Njeni akteri bilu su Katica i Ante, a tajnu o njima danas čuva upravo ostrvo Sveti Đorđe.",
+        description: (
+          <span>
+            Ostrvo Sveti Đorđe je dobilo ime po zaštitniku grada Kotora i
+            Kotorani su prvi koji su ga tako nazivali, a njegovo ime nije se
+            nikako mijenjalo. Okruženo kamenim zidinama, i sakriveno od pogleda
+            visokim krošnjama čempresa, ovo ostrvo kao da krije neku tajnu i ne
+            dopušta radoznalim očima da poremete pomalo jezivi mir ovog ostrva.
+            Jedini trag ljudi na ostrvu predstavlja benediktinski manastir iz
+            12. vijeka, a najveći dio ostrva zauzima groblje u kojem su
+            sahranjeni nebrojeni stanovnici Perasta i drugih gradova Boke. Svi
+            osvajači koji su dolazili u Boku, željeli su da posjeduju ovo
+            ostrvo, jer se vjerovalo da će njegovi vladari, vladati i čitavim
+            zalivom. Ostrvo je, kako mještani vjeruju, zbog zaštite sveca
+            pošteđeno. Ovo ostrvo je poznato i pod nazivom &quot;Ostrvo mrtvih&quot; i to
+            s punim pravom, jer na groblju počiva nekoliko stotina, ili čak
+            hiljada ljudi - Peraštana, ali i drugih. Međutim, jedna od najlepših
+            i najtužnijih ljubavnih priča desila se u Perastu u Crnoj Gori.
+            Njeni akteri bilu su Katica i Ante, a tajnu o njima danas čuva
+            upravo ostrvo Sveti Đorđe.
+          </span>
+        ),
       },
       {
         id: 2,
