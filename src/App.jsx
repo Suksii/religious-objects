@@ -63,19 +63,19 @@ function App() {
           }
         />
         <Route
-          path="/srednja-regija"
+          path="/centralna-regija"
           element={
             <RegionPage
               data={central_data}
-              region="srednje"
-              regionLink="srednja-regija"
+              region="centralne"
+              regionLink="centralna-regija"
             />
           }
         />
         <Route
-          path="/srednja-regija/:object"
+          path="/centralna-regija/:object"
           element={
-            <ReligiousObject data={central_data} regionLink="srednja-regija" />
+            <ReligiousObject data={central_data} regionLink="centralna-regija" />
           }
         />
         <Route path="*" element={<HomePage />} />

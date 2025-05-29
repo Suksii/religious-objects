@@ -529,7 +529,7 @@ export const central_data = [
   },
   {
     id: 11,
-    name: "Dvoranska crkva na Ćipuru",
+    name: "Dvorska crkva na Ćipuru",
     mainImage: DvoranskaCrkva1,
     date: "01.05.2024.",
     images: [
