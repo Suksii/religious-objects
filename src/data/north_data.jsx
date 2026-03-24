@@ -23,6 +23,7 @@ import CrkvaSvetePetkeParaskeve3 from "../assets/img/CrkvaSvetePetkeParaskeve3.j
 import SvTrojica from "../assets/img/SvTrojica.jpg";
 import ManastirMoraca from "../assets/img/ManastirMoraca.jpg";
 import CrkvaSvJovanaKrstitelja from "../assets/img/CrkvaSvJovanaKrstitelja.jpg";
+import HuseinPasinaDzamija from "../assets/img/HuseinPasinaDzamija.jpg";
 
 export const north_data = [
   {
@@ -518,12 +519,12 @@ export const north_data = [
   {
     id: 10,
     name: "Husein - pašina džamija - Pljevlja",
-    mainImage: CrkvaSvJovanaKrstitelja,
+    mainImage: HuseinPasinaDzamija,
     date: "20.05.2025.",
     images: [
       {
         id: 1,
-        image: CrkvaSvJovanaKrstitelja,
+        image: HuseinPasinaDzamija,
       },
     ],
     descriptions: [
@@ -598,8 +599,7 @@ export const north_data = [
             Izvori:
             <span>
               Tekst je preuzet iz knjige „Džamije u Crnoj Gori“, Bajro Agović,
-              drugo dopunjeno izdanje, strana 131, izdavač: Almanah –
-              PodgoricaFotografije:
+              drugo dopunjeno izdanje, strana 131, izdavač: Almanah – Podgorica
             </span>
           </span>
         ),
