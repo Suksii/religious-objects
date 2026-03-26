@@ -4,19 +4,21 @@ import { Route, Routes } from "react-router-dom";
 import RegionPage from "./pages/regionPage/RegionPage.jsx";
 import ReligiousObject from "./pages/religiousObject/ReligiousObject.jsx";
 import FZM from "./assets/FZM.png";
+import logo2 from "./assets/logo2.png"
 import FZMsmall from "./assets/FZMsmall.jpg";
 import { central_data } from "./data/central_data.jsx";
 import { south_data } from "./data/south_data.jsx";
 import { north_data } from "./data/north_data.jsx";
 import { useEffect, useState } from "react";
 import FondSection from "./components/fondSection/FondSection.jsx";
+import logo2small from "./assets/logo2small.png"
 
 function App() {
-  const [imageSrc, setImageSrc] = useState(FZMsmall);
+  const [imageSrc, setImageSrc] = useState(logo2small);
 
   useEffect(() => {
     const updateImage = () => {
-      setImageSrc(window.innerWidth > 768 ? FZM : FZMsmall);
+      setImageSrc(window.innerWidth > 768 ? logo2 : logo2small);
     };
 
     updateImage();

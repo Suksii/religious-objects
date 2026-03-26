@@ -6,6 +6,13 @@ import centralnaRegija from "../../assets/img/c-regija.jpg";
 import sjevernaRegija from "../../assets/img/s-regija.jpg";
 
 const HomePage = () => {
+const [views, setViews] = useState(0);
+  useEffect(() => {
+    fetch("/counter.php")
+      .then(res => res.json())
+      .then(data => setViews(data.views))
+      .catch(err => console.error(err));
+  }, []);
   const data = [
     {
       region: "Južna regija",
@@ -28,6 +35,9 @@ const HomePage = () => {
     <div className="home-page">
       <p style={{ textAlign: "right", marginRight: "5px" }}></p>
       <h1 className="title">Vjerski objekti u Crnoj Gori</h1>
+           <div>
+     
+    </div>
       <div className="card-list">
         {data.map((region, index) => (
           <Link to={region.link} key={index} className="card">
@@ -36,7 +46,11 @@ const HomePage = () => {
           </Link>
         ))}
       </div>
+       <div className="view-counter">
+  👁️ Broj pregleda: {views}
+</div>
     </div>
+    
   );
 };
 

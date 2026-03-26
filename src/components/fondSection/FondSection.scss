@@ -5,34 +5,50 @@
   align-items: center;
   padding: 0 16px;
   cursor: pointer;
-  color: rgb(218, 165, 32);
-  background-color: rgb(182, 16, 16);
+  color: black;
+  background-color: white;
   .l_text {
     position: absolute;
     left: 0;
     top: 0;
     font-family: "Roboto Serif";
     text-wrap: nowrap;
+    
   }
 }
-.fond {
+.fond,
+.fond_small {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 12px;
   margin: 24px 0;
-  font-size: x-large;
+
   img {
-    width: 52px;
-    height: 52px;
+    width: 100%;
+    height: auto;
   }
+}
+
+.fond {
+  gap: 12px;
+  font-size: x-large;
+}
+
+.fond_small {
+  display: none;
 }
 
 @media (max-width: 768px) {
   .l_text {
     font-size: 12px;
   }
+
   .fond {
     font-size: large;
+    display: none;
+  }
+
+  .fond_small {
+    display: flex;
   }
 }

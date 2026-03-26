@@ -2,6 +2,16 @@
   text-align: center;
   margin: 20px 0;
 }
+.view-counter {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  backdrop-filter: blur(6px);
+  background: rgba(0, 0, 0, 0.4);
+  color: white;
+  padding: 8px 12px;
+  border-radius: 10px;
+}
 .card-list{
   display: flex;
   justify-content: center;

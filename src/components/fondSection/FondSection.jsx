@@ -1,4 +1,6 @@
 import "./FondSection.scss";
+import LogoImg from "../../assets/logo2.png"
+import logoSmall from "../../assets/logo2small.png"
 
 const FondSection = () => {
   const fondLink = "https://fzm.me/v/";
@@ -14,13 +16,17 @@ const FondSection = () => {
         "Vjerski objekti Crne Gore" je projekat koji se realizuje podrškom:
       </p>
       <div className="fond">
-        <img src={fondLogo} alt={"fond"} />
+        {/* <img src={fondLogo} alt={"fond"} />
         <p style={{ width: "100%" }}>
           <span style={{ fontWeight: "semibold" }}>
             Fond za zaštitu i ostvarivanje manjinskih prava{" "}
           </span>
           Crne Gore
-        </p>
+        </p> */}
+        <img src={LogoImg} style={{ width: '100%', height: 'auto'}} alt="Logo fond"/>
+      </div>
+      <div className="fond_small">
+        <img src={logoSmall} style={{ width: '100%', height: 'auto'}} alt="Logo fond"/>
       </div>
     </div>
   );
