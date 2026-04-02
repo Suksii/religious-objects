@@ -904,4 +904,118 @@ export const central_data = [
       },
     ],
   },
+  {
+      id: 19,
+      name: "Ćazim-begova džamija",
+      date: "31.03.2026.",
+      mainImage: CazimBegova,
+      images: [
+        {
+          id: 1,
+          image: CazimBegova,
+        }
+      ],
+      descriptions: [
+        {
+          id: 1,
+          description:"Čazim-begova džamija u centru Tuzi je jedna od najvećih džamija u Crnoj Gori. Sagrađena je 1906. godine neposredno uz prvi mektep i školu. Ovaj veliki projekat podržao je lično sultan, a radove je nadgledao Čazim-beg Dirik, po kome je džamija dobila ime."
+        },
+        {
+          id:2,
+          description:"Džamija je rađena od tvrdog materijala sa kamenom munarom. Renovirana je u višenavrata, ali je njen prvobitni oblik ostao identičan. Sa lijeve strane od ulaza u džamiju 2000. godine podignuta je munara čija visina iznosi trideset i tri metra. Na ulazu udžamiju stoji natpis, uklesan na ploči:"
+        },
+        {
+          id:3,
+          description: "U ime Allaha Milostivog Samilosnog \n neka mir bude s vama \n vi ćete biti čestiti \n uđite u džennet \n da u njemu vječno ostanete \n mala varošica \n stimana džamija \n Halifa islamski Car Sultan Mehmed V veličani, \n prva svečanost, sreski načelnik kapetan Čazim Bejin, \n da se vodi računa. \n Podigla se iz dobrovoljnih priloga muslimana. \n \n Kaligraf i majstor, \n Hadži Derviš Dibra, \n Podignuta 1326. h – 1908. godine."
+        }
+      ],
+      sources: [
+        {
+          id: 1,
+          source:
+          "Tekst je preuzet iz knjige “Džamije u Crnoj Gori”, Bajro Agović, drugo dopunjeno izdanje, str. 89-90, \n izdavač: Almanah, Podgorica, 2001."
+        },
+        {
+          id: 2,
+          source:
+          "Fotografija: Dejan Feratović"
+        }
+      ],
+  },
+  {
+    id: 20,
+    name: "Katolička crkva sv. Ćirila i Metodija",
+    date: "31.03.2026.",
+    mainImage: CiriloMetodije,
+    images: [
+      {
+        id:1,
+        image: CiriloMetodije,
+      }
+    ],
+    descriptions: [
+      {
+        id: 1,
+        description: "'Nikšićka ljepotica', kako je velečasni Ćiril Zajec znao nazvati novu katoličku crkvu, više od 30 godina krasi grad pod Onogoštom svojom ljepotom. Imao je Nikšić i prije nje katoličku crkvu, staru, čija se izgradnja vezuje za 1932.godinu kada je imenovan prvi župnik don franjo Stejskal. Tadašnja župna crkva je bila u sklopu župne kuće u ulici Ljuba Nenadovića, nedaleko od bolnice. To je bila oveća prostorija kuće adaptirana za vjerske potrebe."
+      },
+      {
+        id: 2,
+        description: "Zbog urbanističkog razloga katolička crkva se ruši zajedno sa stanom 1971.godine, dok časne sestre za to vrijeme borave u krugu sanatorijuma u Brezoviku gdje su imale svoju kapelicu."
+      },
+      {
+        id: 3,
+        description: "Nakon svih peripetija i teškoća 1976.godine ondašnji nadbiskup Tokić blagoslovio je kamen temeljac crkve koja će, kao i ona ranije, biti posvećena slovenskim apostolima svetim Ćirilu i Metodiju, a rađena je po projektu nikšićkog arhitekte Slobodana Vukajlovića."
+      },
+      {
+        id: 4,
+        description: "Gradnja nove crkve je trajala deset godina, a o njoj se i danas brinu časne sestre Franjevačkog reda koje su 2010. godine, za svoj humanitarni rad dobile najveće opštinsko priznanje - Nagradu oslobođenja."
+      }
+    ],
+    sources: [
+      {
+        id: 1,
+        source:
+        "Tekst preuzet sa sajta https://www.heritage-bih-mne.com/katolicka-crkva-niksic/"
+      },
+      {
+        id:2,
+        source:
+        "Fotografija: Dejan Feratović"
+      }
+    ]
+  },
+  {
+    id: 21,
+    name: "Crkva sv. Apostola Petra i Pavla",
+    date: "31.03.2026",
+    mainImage: PetraPavla,
+    images: [
+      {
+        id:1,
+        image: PetraPavla,
+      }
+    ],
+    descriptions: [
+      {
+        id: 1,
+        description: "Crkva Svetih Apostola Petra i Pavla nalazi se u starom gradskom groblju, u položaju Petrove glavice i u neposrednoj blizini Sabornog hrama Svetog Vasilija Ostroškog. Ne zna se tačan podatak kada je crkva podignuta, ali se smatra da ju je sagradio Petar Jakšić iz Rubeža i to još za vrijeme kralja Vladimira. Petar Šobajić je u svojoj knjizi „Onogošt – Nikšić“ iz 1938. godine napisao da postoji predanje po kojem je u ovu crkvu ulazio car Uroš. Neki sačuvani istorijski podaci govore da je u njoj potpisana i povelja o miru Dubrovnika sa humskim knezom Vojislavom Vojinovićem i gradom Kotorom daleke 1362. godine. Za vrijeme dok je Nikšić bio pod turskom vlašću crkva je bila do pola zatrpana, a sve sa namjerom kako bi ostala sačuvana od rušenja. Nekada ju je krasio živopis, od koga su danas ostali samo fragmenti. "
+      },
+      {
+        id: 2,
+        description: "Crkva Svetih Apostola Petra i Pavla nalazi se u starom gradskom groblju, u položaju Petrove glavice i u neposrednoj blizini Sabornog hrama Svetog Vasilija Ostroškog. Ne zna se tačan podatak kada je crkva podignuta, ali se smatra da ju je sagradio Petar Jakšić iz Rubeža i to još za vrijeme kralja Vladimira. Petar Šobajić je u svojoj knjizi „Onogošt – Nikšić“ iz 1938. godine napisao da postoji predanje po kojem je u ovu crkvu ulazio car Uroš. Neki sačuvani istorijski podaci govore da je u njoj potpisana i povelja o miru Dubrovnika sa humskim knezom Vojislavom Vojinovićem i gradom Kotorom daleke 1362. godine. Za vrijeme dok je Nikšić bio pod turskom vlašću crkva je bila do pola zatrpana, a sve sa namjerom kako bi ostala sačuvana od rušenja. Nekada ju je krasio živopis, od koga su danas ostali samo fragmenti. Crkva je sagrađena na staroj nekropoli stećaka u kojoj se i danas nalaze primjerci izuzetni po ljepoti izrade i raznovrsnosti oblika. Radi se o izduženoj pravougaonoj građevini sa polukružnom apsidom na istoku i zvonikom na zapadnoj strani, koja ima i poduži poluobličast svod. Unutrašnja dužina crkve do apside iznosi 9,35 metara, a širina joj je oko tri metra. U oltaru je postavljen jedan stećak koji je u funkciji stuba časne trpeze, dok je patos crkve obrazovan od kamenih ploča. Sama konstrukcija crkve prilično je jednostavna jer je izgrađena od lomljenog kamena, a u zapadnoj polovini zidova ugrađeni su mnogi stećci. Crkva ima četiri prozora (dva na južnom i po jedan na apsidnom i sjevernom zidu), kao i dvoje vrata (na zapadnom i sjevernom zidu). Sa zapadne strane uz zid sagrađena je kula-zvonik sa jednim spratom. Analizom crkvene arhitekture izdvajaju se četiri faze gradnje. Najstariji djelovi zida prepoznatljivi su u donjoj zoni istočnog dijela, dok se nešto mlađi graditeljski poduhvat razaznaje u istočnoj polovini hrama, u dijelu gdje se nalaze tragovi zidnog slikarstva. Treća etapa obnove crkve vidljiva je između prostora sa živopisom i zapadnog zida sa zvonikom, koji predstavlja produženi naos. Četvrta, ujedno i najmlađa, etapa gradnje ostvarena je prilikom zidanja kule-zvonika. Istočna polovina sa apsidom, tj. prostor sa očuvanim ostacima živopisa, nije starija od XVII vijeka, a dogradnja hrama sa zapadne strane zanimljiva je po tome što su u taj dio zida ugrađeni mahom stećci. U temeljima sjevernog zida nalaze se tri stećka – sanduka sa ukrasom arkada i frizom rozeta, dok je na južnoj strani uzidan jedan dekorisan stećak. Do njega sa istočne strane uklopljena je jedna ravna cijela ploča bez ukrasa i druga sa ćiriličnim natpisom. Ova dogradnja je najvjerovatnije izvršena u prvoj polovini XVIII vijeka kada su prošireni svi prozori na crkvi i uokvireni fino klesanim kamenim gredama. Kula-zvonik sa piramidalnim krovnim završetkom sagrađena je poslije oslobođenja Nikšića od Turaka krajem XIX vijeka i taj dio crkve je konstruktivno i tehnički najreprezentativnije izveden. Zvonik počiva na četiri stuba, iznad kojih se nalazi krstasti svod, a povrh njega sprat sa prostorijom koja ima otvore sa lučnim završecima na sve četiri strane svijeta. U oltarskoj apsidi sa sjeverne strane oltarskog prozora naslikan je prorok Aron sa rascvjetalim žezlom u lijevoj ruci, dok je car Solomon sa modelom Jerusalimskog hrama naslikan sa južne strane prozora. Obojica su predstavljeni u stojećem stavu. Niže od njih, u apsidi, prikazani su velikocrkveni oci. Na istočnom zidu, u zoni stojećih figura sa sjeverne strane, dat je lik arhiđakona Stefana. Iznad njega ostaci živopisa upućuju da je tu bio naslikan arhanđel Gavril iz Blagovijesti. U samom vrhu istočnog zida bila je scena Silaska Svetog Duha i Kosmosa sa svitkom u ruci. Na svodu sa sjeverne strane u oltaru naslikano je Pričešće apostola. Iznad, u tjemenu svoda, u medaljonu predstavljen je Hristos Starac koji na grudima drži Hrista Emanuela (dječaka). Zapadnije od ovog, takođe u medaljonu, prikazan je Hrist iz Vaznesenja. Sa južne strane djelimično su sačuvani prizori Preobraženja i Vaskrsenja Lazarevog, a na svodu se nalazi medaljon sa likom Pantokratora. Nije poznato kada je ovaj živopis nastao, ali na osnovu stilskih karakteristika zidnog slikarstva crkve Svetog Petra i Pavla, pretpostavlja se da je nastao tokom prve polovine XVIII vijeka."
+      }
+    ],
+    sources: [
+      {
+        id: 1,
+        source:
+        "Tekst je preuzet sa sajta https://onogost.me/drustvo/niksic-kroz-istoriju-crkva-svetih-apostola-petra-pavla/"
+      },
+      {
+        id: 2,
+        source:
+        "Fotografija: Dejan Feratović"
+      }
+    ]
+  }
 ];
